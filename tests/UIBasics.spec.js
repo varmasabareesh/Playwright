@@ -92,7 +92,7 @@ test('Child window and new tab handling',async({browser})=>{
     await newTab.goto('https://github.com')
     console.log("Child window and new tab opened successfully")
     //await page.pause()
-    await browser.close()
+    await context.close()
 })
 
 //One method to open new tab using browser context

@@ -1,6 +1,11 @@
 const {test,expect} = require("@playwright/test");
 const ExcelJS=require('exceljs')
-const filepath="/Users/Sabareesh/Downloads/Obsqura Testing.xlsx"
+const fs=require('fs')
+const os=require('os')
+const path=require('path')
+const downloadDir=path.join(os.homedir(),"Downloads")
+fs.mkdirSync(downloadDir,{recursive:true})
+const filepath=path.join(downloadDir,"Obsqura Testing.xlsx")
 
 test("ExcelDemo", async({page})=>{
     await page.goto("https://selenium.qabible.in/index.php")
