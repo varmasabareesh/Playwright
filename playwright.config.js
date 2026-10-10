@@ -7,7 +7,7 @@ const config = ({
   reporter:'html',
   use:{
     browserName:'chromium',
-    headless:false,
+    headless:!!process.env.CI,
     screenshot:'on',
     trace:'on',
     video:'on'
