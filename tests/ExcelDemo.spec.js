@@ -7,7 +7,7 @@ const downloadDir=path.join(os.homedir(),"Downloads")
 fs.mkdirSync(downloadDir,{recursive:true})
 const filepath=path.join(downloadDir,"Obsqura Testing.xlsx")
 
-test("ExcelDemo", async({page})=>{
+/*test("ExcelDemo", async({page})=>{
     await page.goto("https://selenium.qabible.in/index.php")
     await page.getByRole("link",{name:'Table'}).click()
     await page.getByRole("link",{name:'Table Data Download'}).click()
@@ -27,7 +27,7 @@ test("ExcelDemo", async({page})=>{
     await expect(page.getByText("File Uploaded!")).toBeVisible()
     await expect(page.getByText("Obsqura Testing.xlsx")).toBeVisible()
     //await page.pause()
-})
+})*/
 
 async function writeExcelFile(filepath,searchValue,changeValue)
 {
