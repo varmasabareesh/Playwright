@@ -1,0 +1,1 @@
+[{"uid":"46251fa224a41398","name":"@web ClientApp login","time":{"start":1791386915302,"stop":1791386924466,"duration":9164},"status":"passed","severity":"normal"},{"uid":"fe6c48f84eb0a6af","name":"@web ClientApp login using Special locators","time":{"start":1791386915302,"stop":1791386926688,"duration":11386},"status":"passed","severity":"normal"}]

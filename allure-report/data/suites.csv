@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","9164","@web ClientApp login","","2026-10-07","passed","2026-10-07","","ClientApp.spec.js","",""
+"","11386","@web ClientApp login using Special locators","","2026-10-07","passed","2026-10-07","","ClientAppSpecial.spec.js","",""
